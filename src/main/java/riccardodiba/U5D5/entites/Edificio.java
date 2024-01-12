@@ -22,17 +22,17 @@ public class Edificio {
 
     private long id;
 
-    private String buildingName;
+    private String nomeEdificio;
 
-    private String address;
+    private String indirizzo;
 
-    private String city;
+    private String citta;
 
 
-    public Edificio(String buildingName, String address, String city) {
-        this.buildingName = buildingName;
-        this.address = address;
-        this.city = city;
+    public Edificio(String nomeEdificio, String indirizzo, String citta) {
+        this.nomeEdificio= nomeEdificio;
+        this.indirizzo = indirizzo;
+        this.citta = citta;
     }
-    
+
 }
